@@ -1,0 +1,129 @@
+
+   body{
+    /* padding: 25px; */
+   margin: 0px;
+   box-sizing: 25px;
+   /* background-image: url(../images/green-ground-cover-of-small-leaves-E6HT8N.jpg);
+    background-color: #85e085; */
+
+ }
+ main
+ {
+   background-color: #ebebe0;
+   border-radius: 5px;
+} 
+    p{  padding-left: 1%;
+}
+img {float: left;
+  padding-left: 0.4%;
+     border-radius: 5px;
+     border-radius: 5px;
+}
+#emailPic,#phonePic{
+    color: green;
+}
+#phonePic
+{
+    font-size:22px;
+}
+#header1 {color: rgb(52, 146, 52);
+  padding-left: 1.4%;
+  font-size: 250%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0.5%;
+}
+.active{
+    background-color: #bbb;
+  }
+.contacty
+{
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #92d392;
+    opacity: 100%;
+    padding: 10px;
+    max-height: 700px;
+    text-align: center;
+}
+/* 
+#our_ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+    background-color:#009900;
+    border-radius: 2px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#our_il {
+    float: left;
+    font-size: 140%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+#our_il a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #00cc00;
+} */
+
+/* div{text-align: right;
+} */
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logo_name{
+    color:#1a6600;
+    margin-left: -1.5%;
+}
+.probootstrap-burger-menu{
+    margin:0 5%;
+  }
+/* header{
+    position: fixed;
+    } */
+#name,#email,#subject{
+    border: 2px solid #00cc00; border-radius: 10px;
+width: 300px; height: 30px;   padding-left: 1%;
+outline: none;padding-top: 0%;
+
+}
+#msgg{border: 2px solid #00cc00;
+       padding-left: 1%;
+        border-radius: 10px; 
+        padding-top: 1%;
+        font-size: 15px;
+        outline: none;
+}
+#btnn{
+  width: 100px; background-color: green; color: white; padding: 10px; padding-bottom: 30px;
+    border: 2px solid green; border-radius: 10px; height: 30px; font-size: 16.5px; margin-left: 8px;
+    outline: none; transition: 0.3s; cursor: pointer;
+}
+#btnn:hover {
+    background-color: white;
+    color: green; 
+    border: 2px solid white;
+}
+#btn_msg{
+    margin-left: 1.4% ;
+    width: fit-content;
+}
+.contain{  padding-left: 1.4%;
+}
+

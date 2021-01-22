@@ -1,0 +1,27 @@
+body{
+    /* padding: 25px; */
+   margin: 0px;
+   box-sizing: 25px;
+   /* background-image: url(../images/green-ground-cover-of-small-leaves-E6HT8N.jpg);
+    background-color: #85e085; */
+
+ }
+ main
+ {
+   background-color: #ebebe0;
+   border-radius: 5px;
+} 
+.active{
+    background-color: #bbb;
+  }
+  #logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logo_name{
+    color:#1a6600;
+}
+.probootstrap-burger-menu{
+    margin:0 5%;
+  }

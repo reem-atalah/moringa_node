@@ -1,0 +1,28 @@
+{
+  "name": "moringaegyptweb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.1",
+    "flash": "^1.1.0",
+    "http-server": "^0.12.3",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "req-flash": "0.0.3",
+    "session": "^0.1.0"
+  }
+}

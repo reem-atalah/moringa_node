@@ -1,0 +1,30 @@
+<%- include('layouts/header') %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<br><br>
+<div class="contacty">
+  <!-- <h1 id="header1">Contact Us</h1> -->
+  <%- messages('partials/messages', locals) %>
+  <br><br>
+    <form class="contain" action="contact_us" method="POST">
+  <!-- <input type="text" name="FN"placeholder="First Name" value="" required > -->
+  <input id="name" type="text" name="name" placeholder="Name"value=""required> <br><br>
+  <input id="email" type="text" name="email"placeholder="Email" value=""required> <br><br>
+  <input id="subject" type="text" name="subject"placeholder="Subject" value=""required> <br><br>
+  <textarea id="msgg" name="message" rows="12" cols="38" placeholder="Please leave your message here." required></textarea> <br><br>
+  <button id="btnn" type="submit">Submit</button> <br> <br>
+  </form>
+
+
+    <p>
+      <i id="phonePic" class="fa fa-phone" aria-hidden="true"></i>
+  <!-- <img id="phonePic" src="../images/phone.png"width="22"height="40" style="max-width:100%;height:auto;" alt=""> -->
+  002 01274565336</p>
+  <p> 
+    <i id="emailPic" class="fa fa-envelope" aria-hidden="true"></i>
+    <!-- <img id="emailPic" src="../images/message.png" style="max-width:100%;height:auto;" width="23" height="23"alt=""> -->
+    info@moringa-egypt.com <br>
+    moringa.egypt@yahoo.com </p>
+    <br>
+</div>
+  
+   <%- include('layouts/footer') %>

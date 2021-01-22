@@ -1,0 +1,77 @@
+<%- include('layouts/header') %>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides ">
+    <div class="numbertext">1 / 2</div>
+    <img src="/images/home1.jpg" style="width:100%">
+    <div class="write1">
+      <h1 class="header1">Moringa-Egypt Farms</h1>
+      <p class="p1">Moringa oleifera&#8217;s health benefits have long been well understood and cherished by the people of Asia and Africa.
+      The Moringa tree&#8217;s uses as a health and medicinal plant can be traced back centuries; there are documented references of its oil being placed in the tombs of ancient Egyptians.
+      What the East has known is now being understood by the West, as more and more people in Europe and America begin to explore the benefits of alternative healing.
+      </p>
+    </div>
+  </div>
+
+  <div class="mySlides ">
+    <div class="numbertext">2 / 2</div>
+    <img src="/images/dates_home1.jpg" style="width:100%">
+    <div class="write2">
+      <h2 class="header2">High quality Moringa from Moringa-Egypt Farms</h2>
+      <p class="p2">At 370 kilometers away from Cairo we have chosen to locate our moringa farms in Baharya Oasis in the Egyptain Western desert.
+      <a target="_blank" href="https://en.wikipedia.org/wiki/Bahariasaurus">Bahariasaurus</a>
+      the largest ceratosaur lived in Baharya Oasis 95 million years ago, the Oasis was culturally in addition to economically flourishing in the 26th dynasty of  ancient Egypt history.
+      Baharya Oasis supported by the highest radiant sun for solar energy during the whole year, clean environment and plenty &
+      good quality of ground water come from the Nubian Sandstone Aquifer which is the largest groundwater reservoir in
+      the world encourged us to cultivate organic and sustainable Moringa farms.</p></p>
+
+    </div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prevy" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="nexty" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<a href="contact_us"><h2  class="contact"><ins>Please place your order for 2021 products.</ins></h2></a>
+
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<%- include('layouts/footer') %>
+<!-- <img id="moringaPic" src="../images\moringa.jpeg" alt="Moringa picture"  style="max-width:100%;height:auto;width:320px;height:187px"> -->

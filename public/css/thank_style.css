@@ -1,0 +1,61 @@
+body{
+    /* border: 25px solid #85e085; */
+    /* padding: 25px; */
+   margin: 0px;
+   box-sizing: 25px;
+   /* background-image: url(../images/green-ground-cover-of-small-leaves-E6HT8N.jpg);
+    background-color: #85e085; */
+
+ }
+ main
+ {
+   background-color: #ebebe0;
+   border-radius: 5px;
+} 
+  p,h1 {  text-align: center; color:green;}
+  
+  p{font-size:120%}
+  #logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logo_name{
+    color:#1a6600;
+}
+.probootstrap-burger-menu{
+    margin:0 5%;
+  }
+  .active{
+    background-color: #bbb;
+  }
+  /* ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #009900;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 23px;
+      text-decoration: none;
+  
+  }
+  li {font-size: 150%; }
+  
+  li a:hover {
+      background-color: #00cc00 ;
+  }
+  
+   */
+   /* header{
+    position: fixed;
+    } */
